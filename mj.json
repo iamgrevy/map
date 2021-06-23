@@ -1,0 +1,38 @@
+[
+    {
+        "city":  "Los Ageles CA, USA",
+        "location-lat":  "34.0430",
+        "location-long": "118.2673",
+        "resource": "https://andtheunderdogwins.wordpress.com/2017/06/21/way-out-wednesday-did-michael-jackson-fake-his-death-part-1/",
+        "time":"June 25 , 2009"
+ },
+ {
+    "city":  "Ontario,Canada",
+    "location-lat":  "51.2538",
+    "location-long": "85.3232",
+    "resource": "https://empirenews.net/michael-jackson-seen-alive-hiding-in-canada-under-assumed-name/?fbclid=IwAR3Yq2srd011RAiApaCZkQ4OipX5NUnXWBDZYUaZKIFoQbgmfCtRSPq9ifg",
+    "time":"2009"
+},
+{
+    "city":  "Paris,France",
+    "location-lat":  "48.8566",
+    "location-long": "2.3522",
+    "resource": "https://www.youtube.com/watch?v=T63nHSunNwk&ab_channel=MrElectrodandy",
+    "time":"26 June 2011" 
+},
+    {
+        "city":  "Joshua Tree, California, USA",
+        "location-lat":  "34.1347",
+        "location-long": "116.3131",
+        "resource": "https://www.thesun.co.uk/tvandshowbiz/1724206/michael-jackson-fans-swear-pop-king-is-still-alive-after-spotting-him-lurking-in-daughters-selfie/" ,
+        "time": "2016"    
+    },
+    {
+        "city":  "Encino, California, USA",
+        "location-lat":  "34.1517",
+        "location-long": "118.5214",
+        "resource": "https://www.dailystar.co.uk/news/latest-news/michael-jackson-alive-2017-spotted-17050960" ,
+        "time": "2017"
+    }
+  
+]
