@@ -7,7 +7,7 @@ fetch("mj.json")
     console.log("doin smth else");
 
     var map = L.map("mapid", {
-      crs: L.CRS.Simple,
+      crs: L.CRS.Simple, color: "red"
     });
     var bounds = [
       [0, 0],
@@ -26,7 +26,7 @@ fetch("mj.json")
     });
     // console.log(michaeljacksonLocation);
 
-    var polyline = L.polyline(michaeljacksonLocation, { color: "blue" }).addTo(
+    var polyline = L.polyline(michaeljacksonLocation, { color: "red" }).addTo(
       map
     );
     map.fitBounds(polyline.getBounds());
@@ -35,10 +35,11 @@ fetch("mj.json")
     // для каждого элемента массива jsonData
     jsonData.forEach(function (jsonData) {
       // создаём кружок с координатами, взятыми из элемента массива (переменная stork)
-      var circle = L.circle(
+      var circle = L.circle( 
         [jsonData["location-lat"], jsonData["location-long"]],
         {
           radius: 1,
+          color: "red"
         }
       );
       // привязываем к кружку поп-ап с данными, взятыми из элемента массива (переменная stork)
