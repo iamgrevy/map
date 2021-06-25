@@ -1,32 +1,32 @@
 [
   {
     "city": "Los Ageles CA, USA",
-    "location-lat": "34.0430",
-    "location-long": "118.2673",
+    "location-lat": "34.05223",
+    "location-long": "-118.59524",
     "resource": "https://andtheunderdogwins.wordpress.com/2017/06/21/way-out-wednesday-did-michael-jackson-fake-his-death-part-1/",
     "time": "June 25 , 2009",
     "imgSrc": "1.png"
   },
   {
     "city": "Ontario,Canada",
-    "location-lat": "51.2538",
-    "location-long": "85.3232",
+    "location-lat": "51.25377",
+    "location-long": "-85.32321",
     "resource": "https://empirenews.net/michael-jackson-seen-alive-hiding-in-canada-under-assumed-name/?fbclid=IwAR3Yq2srd011RAiApaCZkQ4OipX5NUnXWBDZYUaZKIFoQbgmfCtRSPq9ifg",
     "time": "2009",
     "imgSrc": "2.png"
   },
   {
     "city": "Paris,France",
-    "location-lat": "48.8566",
-    "location-long": "2.3522",
+    "location-lat": "48.85661",
+    "location-long": "2.35222",
     "resource": "https://www.youtube.com/watch?v=T63nHSunNwk&ab_channel=MrElectrodandy",
     "time": "26 June 2011",
     "imgSrc": "1.png"
   },
   {
     "city": "Joshua Tree, California, USA",
-    "location-lat": "34.1347",
-    "location-long": "116.3131",
+    "location-lat": "34.13472",
+    "location-long": "-116.3131",
     "resource": "https://www.thesun.co.uk/tvandshowbiz/1724206/michael-jackson-fans-swear-pop-king-is-still-alive-after-spotting-him-lurking-in-daughters-selfie/",
     "time": "2016",
     "imgSrc": "1.png"
@@ -34,7 +34,7 @@
   {
     "city": "Encino, California, USA",
     "location-lat": "34.1517",
-    "location-long": "118.5214",
+    "location-long": "-118.5214",
     "resource": "https://www.dailystar.co.uk/news/latest-news/michael-jackson-alive-2017-spotted-17050960",
     "time": "2017",
     "imgSrc": "6.png"
@@ -42,10 +42,91 @@
   {
     "city": "Ritz, California, USA",
     "location-lat": "34.1517",
-    "location-long": "118.5214",
+    "location-long": "-117.5214",
     "resource": "https://www.dailystar.co.uk/news/latest-news/michael-jackson-alive-2017-spotted-17050960",
     "time": "2017",
     "imgSrc": "3.png"
-  }
+  },
+  {
+  "city": "Africa",
+    "location-lat": "-8.78319",
+    "location-long": "34.50852",
+    "resource": "",
+    "time": "2010",
+    "imgSrc": "5.png"
+  },
+  {
+    "city": "San-Pablo,Colubia",
+    "location-lat": "1.53062",
+    "location-long": "-77.02884",
+    "resource": "",
+    "time": "2014",
+    "imgSrc": "2.png"
 
-]
+
+  },
+  {
+    "city": "South Australia",
+    "location-lat": "-30.00023",
+    "location-long": "136.20915",
+    "resource": "",
+    "time": "2013",
+    "imgSrc": "4.png"
+
+  },
+  {
+    "city": "Gary,Indiana,USA",
+    "location-lat": "41.60204",
+    "location-long": "-87.33715",
+    "resource": "",
+    "time": "2016",
+    "imgSrc": "1.png"
+
+  },
+{
+  "city": "Las Vegas,Nevada,USA",
+  "location-lat": "36.16994",
+  "location-long": "-115.13982",
+  "resource": "",
+  "time": "2017",
+  "imgSrc": "6"
+
+},
+
+{
+  "city": "Microsoft Theater,LA,USA",
+  "location-lat": "34.04454",
+  "location-long": "-118.26717",
+  "resource": "",
+  "time": "2015",
+  "imgSrc": "1.png"
+
+},
+
+{
+  "city": "Atlanta,USA",
+  "location-lat": "33.74899",
+  "location-long": "-84.38798",
+  "resource": "",
+  "time": "2010",
+  "imgSrc": "6.png"
+
+},
+{
+  "city": "Mississippi,USA",
+  "location-lat": "32.35466",
+  "location-long": "-89.39852",
+  "resource": "",
+  "time": "2019",
+  "imgSrc": "3.png"
+
+},
+{
+  "city": "Turkey",
+  "location-lat": "38.96374",
+  "location-long": "35.24332",
+  "resource": "",
+  "time": "2014",
+  "imgSrc": "4.png"
+
+}]
