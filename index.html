@@ -1,78 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datavis start</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%F0%9F%92%99%3C%2Ftext%3E%3C%2Fsvg%3E" type="image/svg+xml">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>is MJ alive? [hopefully not]</title>
+    <link
+      rel="shortcut icon"
+      href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%F0%9F%A7%9F%E2%80%8D%E2%99%82%EF%B8%8F%3C%2Ftext%3E%3C%2Fsvg%3E"
+      type="image/svg+xml"
+    />
     <style>
-        body {
-            padding: 100;
-            margin: 100 100;
-           /* max-width: 800px; */
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-        h1, h2 {
-            text-transform: uppercase;
-        }
-        #mapid {
-            height: 100vh;
-            width: 100vw;
-        }
+      body {
+        padding: 100;
+        margin: 100 100;
+        /* max-width: 800px; */
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      h1,
+      h2 {
+        text-transform: uppercase;
+      }
+      #mapid {
+        height: 100vh;
+        width: 100vw;
+      }
+
+      /* .my-popup {
+        border: 2px solid blue;
+      } */
+
+      .link {
+        color: aquamarine;
+      }
     </style>
-     <link rel="stylesheet" href="mapstyle.css"/>
-</head>
-<!-- <body>
-    < !-- <h1>datavis portal</h1> 
-    <h2>add</h2> -->
+    <link rel="stylesheet" href="mapstyle.css" />
+  </head>
+  <body>
     <div class="data"></div>
-    <div id="mapid"><img class="leaflet-image-layer leaflet-zoom-animated" src="Untitled-1-01.png" alt="" style="z-index: 1; width: 100vw; height: 100vh;"></div>
-    
+    <a class="link" href="page-2.html">page 2</a>
+    <div id="mapid">
+      <img
+        class="leaflet-image-layer leaflet-zoom-animated"
+        src="Untitled-1-01.png"
+        alt=""
+        style="z-index: 1; width: 100vw; height: 100vh"
+      />
+    </div>
 
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-   crossorigin=""></script>
-    <script src="maptry.js"></script> 
-    <script src="maptry.js"></script> 
-      
- 
-
-
-</body> -->
-<body>
-
-    <div id="map" class="leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" 
-    tabindex="0" style="position: relative; outline: none;">
-    <div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);">
-        <div class="leaflet-pane leaflet-tile-pane"></div>
-        <div class="leaflet-pane leaflet-shadow-pane"></div>
-        <div class="leaflet-pane leaflet-overlay-pane">
-            <img class="leaflet-image-layer leaflet-zoom-animated" src="Untitled-1-01.png" alt=""></div>
-            <div class="leaflet-pane leaflet-marker-pane"></div>
-            <div class="leaflet-pane leaflet-tooltip-pane"></div>
-            <div class="leaflet-pane leaflet-popup-pane"></div>
-            <div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(500px, -500px, 0px) scale(0.5);"></div>
-        
-            
-    
-    <script>
-    
-        var map = L.map('map', {
-            crs: L.CRS.Simple
-        });
-    
-        //  var bounds = [[1000,1000], [19200,10800]];
-        //  var image = L.imageOverlay('map_grid.png', bounds).addTo(map);
-    
-        map.fitBounds(bounds);
-    
-    </script>
-    
-    
-    
-    
-    
-    </body>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="maptry.js"></script>
+  </body>
 </html>
